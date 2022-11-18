@@ -5,6 +5,7 @@ import Collage from "./Collage";
 import Footer from "./Footer";
 import Body from "./Body";
 import Busqueda from "./Busqueda"
+import Visited from "./Visited";
 import "./styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <body>
       <Navbar />
       <Busqueda/>
+      <Visited/>
       <Collage />
       <Body/>
     </body>
