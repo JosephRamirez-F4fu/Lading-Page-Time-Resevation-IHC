@@ -186,6 +186,43 @@ header{
     margin-top: 15px;
 }
 
+@media(max-width:1190px){
+    #main{
+        background-size: 1150px !important;
+    }
+    .name{
+        left: 50%;
+        top: 50%;
+        transform: translate(50%, -50%);
+        text-align: center;
+    }
+    .about-image img{
+        height: 400px;
+    }
+    #features{
+        height: auto;
+    }
+    .a-container{
+        flex-wrap: wrap;
+    }
+    #services{
+        height: auto;
+    }
+    .b-container{
+        flex-wrap: wrap;
+    }
+    .s-box{
+        flex-grow:1 ;
+    }
+    .s-b-img img{
+        object-fit: cover;
+    }
+    .a-b-img img{
+        object-fit: contain;
+    }
+
+}
+
 /*Linea divisora*/
 .contenedor-line{
     display: flex;
@@ -268,6 +305,44 @@ header{
     font-size: 30px;
 }
 
+@media(max-width: 970px){
+    .main{
+        background-image: none !important;
+    }
+    .name{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-image {
+        display: none;
+    }
+    .cv-btn{
+        margin-left: 27%;
+        margin-top: 20px;
+    }
+    #about{
+        justify-content: center;
+        padding-top: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .about-text{
+       width: 90%;
+     }
+    .about-text h1{
+       font-size: 4rem;
+    }
+    .about-text p{
+        width: 100%;
+    }
+    #features{
+        margin-bottom: 100px;
+    }
+    #presentation {
+        display: none;
+    }   
+}
 
 /*footer*/
 footer{
