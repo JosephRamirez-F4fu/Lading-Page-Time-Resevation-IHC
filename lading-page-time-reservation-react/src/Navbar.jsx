@@ -1,4 +1,4 @@
-import "./styles.css";
+
 import imglogo from './img/logo/logo.png'
 
 
@@ -52,13 +52,13 @@ function ListButtonNavbar() {
 
 function Navbar() {
   return (
-    <body>
+    <>
       <header className="header">
         <Logo />
         <List />
         <ListButtonNavbar />
       </header>
-    </body>
+    </>
   );
 }
 
