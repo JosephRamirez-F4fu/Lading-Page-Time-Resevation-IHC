@@ -63,20 +63,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-/*<header class="header">
-    <div class="logo">
-        <img src="img/Logo/logo.png" alt="Logo Full Time Reservation"></img>
-    </div>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Restaurantes</a></li>
-            <li><a href="#">Promociones</a></li>
-        </ul>
-    </nav>
-    <div class="list-btn">
-        <a href="#" class="btn"><button>Iniciar sesion</button></a>
-        <a href="#" class="btn"><button>Registrarse</button></a>
-    </div>
-    </header>*/
