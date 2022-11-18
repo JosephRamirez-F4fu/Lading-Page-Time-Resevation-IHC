@@ -1,22 +1,45 @@
+function ButtonSearch(props) {
+  return (
+    <div class="contenedor">
+      <a href="#" class="btn-2">
+        <button>{props.name}</button>
+      </a>
+    </div>
+  );
+}
 
-  function ButtonSearch(props){
-      return <>
-          <a href="#" class="btn"><button>{props.name}</button></a>
-      </>
-  }
-  function ListButtonSearch(){
-      return (
-      <div className="list-btn">
-          <ButtonSearch name="Haz tu reserva"/>
-      </div>)
-  }
-  
-  function Busqueda() {
-    return <>
-    <ListButtonSearch/>
-    </>;
-  }
-  
-  export default Busqueda;
-  
-  
+function Input(props) {
+  return (
+    <div className="contenedor">
+      <input type="search" class="input" placeholder={props.text}></input>
+    </div>
+  );
+}
+
+function Busqueda() {
+  return (
+      <div class="buscador-box">
+        <div class="contenedor">
+          <h1>Full Time Reservation</h1>
+        </div>
+        <Input text="Buscar Restaurantes..."></Input>
+        <ButtonSearch name="Haz tu reserva" />
+      </div>
+  );
+}
+
+export default Busqueda;
+
+/* <div class="buscador-box">
+        <div class="contenedor">
+        <h1>Full Time Reservation</h1>
+        </div>
+
+        <div class="contenedor">
+            <input type="search" class="input" placeholder="Buscar Restaurantes...">
+        </div>
+        <div class="contenedor">
+        <a href="#" class="btn-2"><button>Haz tu reserva</button></a>
+        </div>
+    </div>
+    */
