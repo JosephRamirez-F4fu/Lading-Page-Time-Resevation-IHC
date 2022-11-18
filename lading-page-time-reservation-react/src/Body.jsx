@@ -19,3 +19,11 @@
   
   export default Body;
   
+  /*
+        <div class="contenedor">
+            <h2>Ver más restaurantes</h2>
+        </div>
+        <div class="contenedor">
+            <a href="#"  class="btn-2" ><button>Explorar</button></a>
+        </div>
+  */
