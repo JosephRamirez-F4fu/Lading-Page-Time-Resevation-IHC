@@ -10,7 +10,8 @@ function TokenList(props) {
     return (
       <>
         <ul className="nav-list">
-          <TokenList name="Haz tu reserva" />
+          <TokenList name="Cliente" />
+          <TokenList name="Dueño" />
         </ul>
       </>
     );
