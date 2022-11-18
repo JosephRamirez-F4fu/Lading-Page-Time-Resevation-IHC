@@ -8,21 +8,28 @@ function CircleImage(props) {
 }
 
 function CircleGallery() {
-  return <div className="circle-gallery">
-    <CircleImage img="" text="hola"/>
-    <CircleImage img="" text="gola"/>
-    <CircleImage img="" text="tea"/>
-  </div>;
+  return (
+    <div className="circle-gallery">
+      <CircleImage img="" text="hola" />
+      <CircleImage img="" text="gola" />
+      <CircleImage img="" text="tea" />
+    </div>
+  );
 }
 
 function Visited() {
   return (
-    <div className="Restaurantes-buscados">
-      <h2 className="contenedor">
-        Los Restaurantes más visitados en la semana
-      </h2>
-      <CircleGallery/>
-    </div>
+    <>
+      <div className="Restaurantes-buscados">
+        <h2 className="contenedor">
+          Los Restaurantes más visitados en la semana
+        </h2>
+        <CircleGallery />
+      </div>
+      <div class="contenedor-line">
+        <div class="line"></div>
+      </div>
+    </>
   );
 }
 
