@@ -68,10 +68,21 @@ header{
     color: #FFFFFF;
 }
 /*Botones de la nav list*/
+.header .list-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 20px
+}
+
+.header .list-btn .btn {
+    padding: 15px 20px;
+}
+
 .header .btn button{
     font-weight: 500;
     color: #FFFFFF;
-    padding: 9px 20px;
+    padding: 15px 40px;
     background: #387E6E;
     border: 0px;
     border-radius: 50px;

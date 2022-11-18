@@ -1,9 +1,12 @@
-import React from 'react'
-import  ReactDOM  from 'react-dom/client'
-import Footer from './Footer'
-
-const root = ReactDOM.createRoot(document.getElementById('root'))
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Navbar from "./Navbar";
+import Collage from "./Collage";
+import "./styles.css";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<>
-   <Footer/>
-</>)
+  <body>
+    <Navbar />
+    <Collage/>
+  </body>
+);
