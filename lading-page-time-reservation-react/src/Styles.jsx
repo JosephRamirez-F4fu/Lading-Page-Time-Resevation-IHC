@@ -4,9 +4,10 @@
           <a href="#" class="btn"><button>{props.name}</button></a>
       </>
   }
+  
   function ListButtonStyles(){
       return (
-      <div className="list-btn">
+      <div className="style-btn">
           <ButtonStyles name="Facebook"/>
           <ButtonStyles name="Instagram"/>
           <ButtonStyles name="Twitter"/>
