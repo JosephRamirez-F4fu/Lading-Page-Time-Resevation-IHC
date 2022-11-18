@@ -1,3 +1,6 @@
+import client from "./img/Clientes/1.jpg"
+import  propietor from "./img/Dueños/1.jpg"
+
 function Testimonio(props) {
   return (
     <div className="Testimonio">
@@ -13,8 +16,8 @@ function Testimonio(props) {
 function TestimonioRow(props) {
   return (
     <div className="test-row">
-      <Testimonio />
-      <Testimonio />
+      <Testimonio client="Cliente" img={client} comentary="Me encanta su página web, así puedo realizar mis reservas rápidamente y saber cual me convendría"/>
+      <Testimonio client="Dueño" img={propietor} comentary="Gracias a su página web logré promocionar mi restaurante y conseguir mayor cantidad de clientes para mi local"/>
     </div>
   );
 }
@@ -32,31 +35,3 @@ function Testimonios() {
 }
 
 export default Testimonios;
-
-/*
-  <div class="Testimonios">
-        
-        
-        <div class="test-title">
-            <h3> Testimonios</h3>
-            <p>Conoce las opiniones de nuestros usuarios</p>
-        </div>  
-        
-        <div class="test-row">
-            <div class="Testimonio">
-                <h1 class="test-client">Cliente </h1>
-                <div class="cont-test-img-text">
-                    <img alt="img-test" src="/img/Clientes/1.jpg">
-                    <p>"Me encanta su página web, así puedo realizar mis reservas rápidamente y saber cual me convendría"</p>
-                </div>
-            </div>
-
-            <div class="Testimonio">
-                <h1 class="test-client" >Dueño </h1>
-                <div class="cont-test-img-text">
-                    <img alt="img-test" src="/img/Dueños/1.jpg">
-                    <p>"Gracias a su página web logré promocionar mi restaurante y conseguir mayor cantidad de clientes para mi local"</p>
-                </div>
-            </div>    
-        </div>
-  */

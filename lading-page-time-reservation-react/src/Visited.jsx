@@ -1,3 +1,7 @@
+import imgRC1 from "./img/RESTAURANTES/1.jpg"
+import imgRC2 from "./img/RESTAURANTES/2.jpg"
+import imgRC3 from "./img/RESTAURANTES/3.jpg"
+
 function CircleImage(props) {
   return (
     <div className="rest-img">
@@ -10,9 +14,9 @@ function CircleImage(props) {
 function CircleGallery() {
   return (
     <div className="circle-gallery">
-      <CircleImage img="" text="hola" />
-      <CircleImage img="" text="gola" />
-      <CircleImage img="" text="tea" />
+      <CircleImage img={imgRC1} text="Astrig y Gastón" />
+      <CircleImage img={imgRC2} text="La Picantería" />
+      <CircleImage img={imgRC3} text="Central" />
     </div>
   );
 }

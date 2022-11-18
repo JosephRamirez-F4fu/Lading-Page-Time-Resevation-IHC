@@ -7,6 +7,7 @@ import Body from "./Body";
 import Busqueda from "./Busqueda"
 import Visited from "./Visited";
 import "./styles.css";
+import Testimonios from "./Testimonios";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
@@ -16,6 +17,7 @@ root.render(
       <Visited/>
       <Collage />
       <Body/>
+      <Testimonios/>
     </body>
     <Footer/>
   </>
