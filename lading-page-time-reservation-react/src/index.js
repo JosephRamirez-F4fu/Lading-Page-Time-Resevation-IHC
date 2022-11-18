@@ -1,9 +1,16 @@
-import React from 'react'
-import  ReactDOM  from 'react-dom/client'
-import Busqueda from './Busqueda'
-
-const root = ReactDOM.createRoot(document.getElementById('root'))
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Navbar from "./Navbar";
+import Collage from "./Collage";
+import Footer from "./Footer";
+import "./styles.css";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<>
-    <Busqueda/>
-</>)
+  <>
+    <body>
+      <Navbar />
+      <Collage />
+    </body>
+    <Footer></Footer>
+  </>
+);
