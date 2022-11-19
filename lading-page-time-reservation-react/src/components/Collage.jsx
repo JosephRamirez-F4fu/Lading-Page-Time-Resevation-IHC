@@ -1,14 +1,14 @@
-import imgC1 from "./img/RESTAURANTES/4.jpg";
-import imgC2 from "./img/RESTAURANTES/5.jpg";
-import imgC3 from "./img/RESTAURANTES/6.jpeg";
+import imgC1 from "../img/RESTAURANTES/4.jpg";
+import imgC2 from "../img/RESTAURANTES/5.jpg";
+import imgC3 from "../img/RESTAURANTES/6.jpeg";
 
-import imgC4 from "./img/RESTAURANTES/7.jpg";
-import imgC5 from "./img/RESTAURANTES/8.jpg";
-import imgC6 from "./img/RESTAURANTES/9.jpg";
+import imgC4 from "../img/RESTAURANTES/7.jpg";
+import imgC5 from "../img/RESTAURANTES/8.jpg";
+import imgC6 from "../img/RESTAURANTES/9.jpg";
 
-import imgC7 from "./img/RESTAURANTES/10.jpg";
-import imgC8 from "./img/RESTAURANTES/11.jpg";
-import imgC9 from "./img/RESTAURANTES/12.png";
+import imgC7 from "../img/RESTAURANTES/10.jpg";
+import imgC8 from "../img/RESTAURANTES/11.jpg";
+import imgC9 from "../img/RESTAURANTES/12.png";
 
 
 function Image(props) {

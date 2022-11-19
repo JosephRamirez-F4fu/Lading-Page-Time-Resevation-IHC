@@ -1,5 +1,5 @@
-import client from "./img/Clientes/1.jpg"
-import  propietor from "./img/Dueños/1.jpg"
+import client from "../img/Clientes/1.jpg"
+import  propietor from "../img/Dueños/1.jpg"
 
 function Testimonio(props) {
   return (

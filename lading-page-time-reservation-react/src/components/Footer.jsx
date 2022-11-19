@@ -1,7 +1,7 @@
-import imgFB from "./img/Redes/Facebook.png";
-import imgINS from "./img/Redes/Instagram.png";
-import imgTWTT from "./img/Redes/Twitter.png";
-import imgYT from "./img/Redes/Youtube.png";
+import imgFB from "../img/Redes/Facebook.png";
+import imgINS from "../img/Redes/Instagram.png";
+import imgTWTT from "../img/Redes/Twitter.png";
+import imgYT from "../img/Redes/Youtube.png";
 
 function TokenListFoot(props) {
   return (

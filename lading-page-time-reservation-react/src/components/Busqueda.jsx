@@ -30,16 +30,3 @@ function Busqueda() {
 
 export default Busqueda;
 
-/* <div class="buscador-box">
-        <div class="contenedor">
-        <h1>Full Time Reservation</h1>
-        </div>
-
-        <div class="contenedor">
-            <input type="search" class="input" placeholder="Buscar Restaurantes...">
-        </div>
-        <div class="contenedor">
-        <a href="#" class="btn-2"><button>Haz tu reserva</button></a>
-        </div>
-    </div>
-    */

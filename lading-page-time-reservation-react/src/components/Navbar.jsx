@@ -1,5 +1,5 @@
 
-import imglogo from './img/logo/logo.png'
+import imglogo from '../img/logo/logo.png'
 
 
 function Logo() {

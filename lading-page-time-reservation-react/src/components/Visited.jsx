@@ -1,6 +1,6 @@
-import imgRC1 from "./img/RESTAURANTES/1.jpg"
-import imgRC2 from "./img/RESTAURANTES/2.jpg"
-import imgRC3 from "./img/RESTAURANTES/3.jpg"
+import imgRC1 from "../img/RESTAURANTES/1.jpg"
+import imgRC2 from "../img/RESTAURANTES/2.jpg"
+import imgRC3 from "../img/RESTAURANTES/3.jpg"
 
 function CircleImage(props) {
   return (
