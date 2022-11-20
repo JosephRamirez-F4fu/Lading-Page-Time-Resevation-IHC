@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Lading-Page-Time-Resevation-IHC/static/css/main.0bbb7767.css",
+    "main.js": "/Lading-Page-Time-Resevation-IHC/static/js/main.83cf534f.js",
+    "static/media/12.png": "/Lading-Page-Time-Resevation-IHC/static/media/12.0139e9725e3359e95ae1.png",
+    "static/media/7.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/7.7ecc7461109fb036d6e9.jpg",
+    "static/media/1.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/1.82ef7ba4c8a16e9fa2e3.jpg",
+    "static/media/5.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/5.ab190dd2fbbf281ccdf8.jpg",
+    "static/media/10.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/10.b52b92b6e6dd0cd4d8e9.jpg",
+    "static/media/6.jpeg": "/Lading-Page-Time-Resevation-IHC/static/media/6.bd18561c135f9f85e7c7.jpeg",
+    "static/media/4.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/4.39cd4d62d7b9929cac82.jpg",
+    "static/media/11.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/11.44703f062896aba3670e.jpg",
+    "static/media/8.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/8.2ca00e4d53c70978801d.jpg",
+    "static/media/3.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/3.8a4afc4292fc9942e5d6.jpg",
+    "static/media/2.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/2.c1058139a84a2e69f8c9.jpg",
+    "static/media/9.jpg": "/Lading-Page-Time-Resevation-IHC/static/media/9.77fd914d9f0347f3b246.jpg",
+    "static/media/logo.png": "/Lading-Page-Time-Resevation-IHC/static/media/logo.6f4b5507000c3497e317.png",
+    "index.html": "/Lading-Page-Time-Resevation-IHC/index.html",
+    "main.0bbb7767.css.map": "/Lading-Page-Time-Resevation-IHC/static/css/main.0bbb7767.css.map",
+    "main.83cf534f.js.map": "/Lading-Page-Time-Resevation-IHC/static/js/main.83cf534f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bbb7767.css",
+    "static/js/main.83cf534f.js"
+  ]
+}
