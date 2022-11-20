@@ -1,6 +1,10 @@
 # Lading-Page-Time-Resevation-IHC
 Somos estudiantes de la Universidad Peruana de Ciencias Aplicadas y pertenecemos a la carrera de Ciencias de la Computación. La idea de negocio de esta Start Up es de que los comensales puedan reservar con anticipación en restaurantes bien calificados y así evitar complicaciones en sus reservas de comidas.
 
+Despliegue de la pagina 
+
+#https://josephramirez-f4fu.github.io/Lading-Page-Time-Resevation-IHC/
+
 Desktop version
 
 ![WhatsApp Image 2022-11-19 at 01 07 48](https://user-images.githubusercontent.com/85711851/202837342-2af79af4-66d4-4230-853f-24a419cdc441.jpeg)
